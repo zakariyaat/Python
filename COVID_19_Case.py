@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 def covid_visualization():
     # Sample dataset (worldwide COVID-19 cases)
     data = {
-        "Country": ["USA", "India", "Brazil", "Russia", "France"],
-        "Total Cases (M)": [110, 45, 38, 22, 40],
-        "Total Deaths (M)": [1.2, 0.53, 0.7, 0.4, 0.35]
+        "Country": ["USA", "India", "Brazil", "Russia", "France", "Germany", "Australia", "China", "Bangladesh"],
+        "Total Cases (M)": [110, 45, 38, 22, 40, 35, 20, 50, 15],
+        "Total Deaths (M)": [1.2, 0.53, 0.7, 0.4, 0.35, 0.3, 0.25, 0.45, 0.5]
     }
     
     df = pd.DataFrame(data)
@@ -25,3 +25,4 @@ def covid_visualization():
 
 if __name__ == "__main__":
     covid_visualization()
+
